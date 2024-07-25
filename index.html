@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global CO₂ Emissions Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"></script>
+</head>
+<body>
+    <div id="visualization-container">
+        <h1>Global CO₂ Emissions Over Time</h1>
+        <div id="description"></div>
+        <div id="chart"></div>
+        <div id="controls">
+            <select id="country-select"></select>
+        </div>
+        <div id="navigation">
+            <button id="prevButton" style="display: none;">Previous</button>
+            <button id="nextButton">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
